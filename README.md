@@ -2,6 +2,9 @@
 
 Welcome to my personal developer portfolio! This site is a showcase of my skills, projects, and academic journey as a Computer Science student.
 
+## 🚀 Live Demo
+Check out the live version: https://maham-06.github.io/portfolio/
+
 ## 🧑‍💻 About Me
 I'm a Computer Science student at FAST NUCES (Expected Graduation: 2026), passionate about AI, software design, and full-stack development. My portfolio highlights major academic projects and self-driven learning.
 

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maham Ismail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <img class="img-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1000" class="logo">Maham Ismail</h1>
+
+            <nav class="nav-links">
+                <a data-aos="fade-down" data-aos-duration="1250" href="#about">About</a>
+                <a data-aos="fade-down" data-aos-duration="1500"href="#projects">Projects</a>
+                <a data-aos="fade-down" data-aos-duration="1750"href="#skills">Skills</a>
+                <a data-aos="fade-down" data-aos-duration="2000"href="#experience">Experience</a>
+                <a data-aos="fade-down" data-aos-duration="2250"href="#education">Education</a>
+                <a data-aos="fade-down" data-aos-duration="2500"href="#contact">Contact</a>
+            </nav>
+            <button class="menu-toggle">&#9776;</button> <!-- This is the hamburger icon -->
+        </header>
+
+        <main>
+        <div class="content">
+            <div class="intro">
+                <p class="small-heading">👋 Hi, my name is</p>
+                <h1 class="main-heading">Maham Ismail.</h1>
+                <h2 class="small-heading">👨‍💻 A CS Student • AI Enthusiast</h2>
+                <p class="description">
+                    I am a computer science student with a strong interest in programming, data analysis, and machine learning. Adept at problem-solving, learning new technologies, and collaborating in team environments.
+                </p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://github.com/yourusername" class="btn github-btn" target="_blank">
+                    GitHub <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="btn linkedin-btn" target="_blank">
+                    LinkedIn <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+        </div>
+        </main>
+        <spline-viewer class="robot-3d" url="https://prod.spline.design/X-sye8QrEjMupOUR/scene.splinecode"></spline-viewer>
+    </div>
+    <!-- Projects Section -->
+<section id="projects" class="section-container">
+    <div class="section-header">
+        <span class="section-number">Projects</span>
+        <!-- <h2 class="section-title">Some Things I've Built</h2> -->
+        <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+        <!-- Featured Project -->
+        <div class="project-card featured-project" data-aos="fade-up" data-aos-duration="500">
+            <div class="project-content">
+                <div class="project-image">
+                    <img class="project-image" src="netflix.jpg" alt="Netflix_Dashboard">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Netflix Dashboard</h3>
+                    <div class="project-description">
+                        <p>The Netflix Dashboard Project involved analyzing Netflix’s content dataset by handling missing values, cleaning and transforming data, and performing exploratory data analysis. I visualized insights using a variety of charts, including bar charts, 
+                            pie charts, sunburst charts, choropleth maps, line charts, histograms, density plots,
+                             probability distributions, scatterplots, correlation matrices, and regression plots.
+                              The project highlighted trends in content distribution, genre popularity, release timelines,
+                               and relationships between key variables, providing a comprehensive view of Netflix's global content landscape.
+                        </p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>R Studio</li>
+                        <li>Kaggle</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="GitHub Link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card featured-project" data-aos="fade-up" data-aos-duration="500">
+            <div class="project-content">
+                <div class="project-image">
+                    <img class="project-image" src="election1.jpg" alt="Election_Management_Database">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">ECP Database</h3>
+                    <div class="project-description">
+                        <p> The Election Commission of Pakistan (ECP) Database Project is a relational database system designed to manage and streamline electoral processes. 
+                            It includes interconnected tables for voters, candidates, constituencies, polling stations, election schedules, and results. 
+                            The database supports key functionalities such as tracking voter and candidate information, managing election schedules, recording votes (both physical and online),
+                             storing election results through Form 45 and Form 47, and maintaining records of political parties and election officials. 
+                           </p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>C#</li>
+                        <li>Oracle</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="GitHub Link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-card featured-project" data-aos="fade-up" data-aos-duration="500">
+            <div class="project-content">
+                <div class="project-image">
+                    <img class="project-image" src="architecture.jpg" alt="software_design">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Software Design and Analysis of Online Shopping System</h3>
+                    <div class="project-description">
+                        <p>The Online Shopping System project for my Software Design and Analysis course involved designing a complete software solution for an e-commerce platform. 
+                            I prepared a detailed Software Requirements Specification (SRS) document outlining the system’s functional and non-functional requirements.
+                             Additionally, I created a comprehensive set of UML diagrams, starting from use case diagrams to model user interactions, followed by class diagrams, activity diagrams, and sequence diagrams to represent the system’s structure, workflows, and object interactions. 
+                            This project helped me apply key software design principles to model a real-world application.
+                        </p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>MS Visio</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="GitHub Link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Skills Section -->
+<section id="skills" class="section-container">
+    <div class="section-header">
+        <span class="section-number">Skills</span>
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="skills-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="skills-category">
+            <h3 class="category-title">Programming Languages</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h4 class="skill-name">C</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h4 class="skill-name">C++</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h4 class="skill-name">Python</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h4 class="skill-name">HTML</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h4 class="skill-name">CSS</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h4 class="skill-name">JavaScript</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3 class="category-title">Frameworks & Libraries</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <h4 class="skill-name">Node.js</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h4 class="skill-name">jQuery</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h4 class="skill-name">Scikit-learn</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-table"></i></div>
+                    <h4 class="skill-name">NumPy</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-table"></i></div>
+                    <h4 class="skill-name">Pandas</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3 class="category-title">Tools & Databases</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h4 class="skill-name">Oracle</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h4 class="skill-name">Visio</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Education Section -->
+<section id="education" class="section-container">
+    <div class="section-header">
+        <span class="section-number">Education</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="education-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="education-card">
+            <div class="education-header">
+                <div class="education-logo">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="education-info">
+                    <h3 class="institution">National University of Computer and Emerging Sciences (FAST NUCES)</h3>
+                    <p class="degree">Bachelor of Science in Computer Science</p>
+                    <p class="duration">Expected Graduation: 2026</p>
+                </div>
+                <div class="education-gpa">
+                    <div class="gpa-circle">
+                        <span class="gpa-value">3.80</span>
+                        <span class="gpa-label">CGPA</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education-details">
+                <div class="achievements">
+                    <h4 class="details-title">Achievements</h4>
+                    <ul class="achievement-list">
+                        <li>Dean's List Honoree (All Semesters)</li>
+                        <li>Position Holder for 3 Semesters</li>
+                        <li>Currently enrolled in 6th Semester</li>
+                    </ul>
+                </div>
+                
+                <div class="coursework">
+                    <h4 class="details-title">Relevant Coursework</h4>
+                    <div class="course-tags">
+                        <span class="course-tag">Data Structures</span>
+                        <span class="course-tag">Analysis of Algorithms</span>
+                        <span class="course-tag">Database</span>
+                        <span class="course-tag">Computer Networks</span>
+                        <span class="course-tag">Artificial Intelligence</span>
+                        <span class="course-tag">Probability and Statistics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="education-card certification" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="education-header">
+                <div class="education-logo">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="education-info">
+                    <h3 class="institution">Coursera</h3>
+                    <p class="degree">Machine Learning Specialization Course 1</p>
+                    <p class="instructor">by Andrew Ng</p>
+                </div>
+                <div class="certification-badge">
+                    <i class="fas fa-medal"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="section-container">
+    <div class="section-header">
+        <span class="section-number">Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="contact-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="contact-info">
+            <h3 class="contact-heading">Let's Connect</h3>
+            <p class="contact-text">Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+            
+            <div class="direct-contact">
+                <h4 class="direct-heading">Direct Contact</h4>
+                <a href="mailto:mahamismail1234@gmail.com" class="email-link">
+                    <i class="fas fa-envelope"></i>
+                    mahamismail1234@gmail.com
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Maham-1234" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <h3 class="form-heading">Send A Message</h3>
+            <form id="contactForm" action="https://formsubmit.co/mahamismail1234@gmail.com" method="POST" class="contact-form">
+                <!-- FormSubmit.co configuration -->
+                <input type="hidden" name="_subject" value="New portfolio contact message!">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.nav-links').stop(true, true).slideToggle(300); // 300ms for smooth slide
+            });
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+  disable: window.innerWidth < 768, // Disable on mobile
+  once: true, // Only animate once
+  throttleDelay: 99 // Increase delay between animations
+});
+    </script>
+</body>
+</html>
